@@ -18,6 +18,8 @@ body {
 .navbar-brand {
 	img {
 		height: 15vh;
+		margin:-10% 0;
+
 	}
 }
 
@@ -28,10 +30,19 @@ body {
 		margin-top: 0px;
 		margin-bottom:0px;
 	}
+
+	.nav-link {
+		font-size: 17px;
+	}
 }
 
 .login-bar {
 	text-align: right;
+	img {
+		display: inline-block;
+		width: 12px;
+		margin-right: 5px;
+	}
 	p {
 		display: inline-block;
 	}
@@ -250,4 +261,74 @@ h2 {
 				text-align: center;
 			}
 		}
+}
+
+.hosting-packages {
+	font-family: $heading-2;
+	.col-md-3 {
+		padding: 0;
+	}
+	p {
+		font-family: 'Roboto-Regular', sans-serif;
+		white-space: pre-line;
+	}
+
+	h5 {
+		text-decoration: line-through;
+	}
+
+	h4 {
+		font-family: $heading;
+	}
+
+	.btn-primary {
+		font-family: 'Montserrat-Bold', sans-serif;
+		width: 70%;
+		background: white;
+		color: #444444;
+		padding: 8px 22px;
+		border: 2px solid #555555;
+		border-radius: 1.5rem;
+		margin: 10px auto;
+	}
+
+	.btn-primary:hover {
+		background: #555555;
+		color: white;
+	}
+	.card-header {
+		background: white;
+	}
+}
+
+.best {
+	color: white;
+	border: 1px solid #008fee;
+	p {
+		color: #555555;
+	}
+	.card-header {
+		background-color: #008fee;
+	}
+
+	.banner {
+		background-color: #00b359;
+	}
+
+	.user {
+		background-color: #007fde;
+	}
+	.btn-primary {
+		color: white;
+		background-color: #0090ef;
+		font-family: 'Montserrat-Bold', sans-serif;
+		font-size: 17px;
+		border-radius: 1.5rem;
+		border: none;
+		padding: 9px 18px;
+	}
+
+	.btn-primary:hover {
+		background-color: #0050ef;
+	}
 }

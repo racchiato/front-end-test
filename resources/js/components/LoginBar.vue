@@ -5,9 +5,9 @@
                 <p>Gratis Ebook 9 Cara Menggunakan Domain [x]</p>
             </div>
             <div class="col-md-6 login-bar">
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
+                <img src="svg/002-call.svg"><p>0274-5305505</p>
+                <img src="svg/001-chat-black.svg"><p>Live Chat</p>
+                <img src="svg/003-user.svg"><p>Member Area</p>
             </div>
         </div>
     </div>

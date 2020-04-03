@@ -23,6 +23,7 @@ Vue.component('navigation-bar', require('./components/Navbar.vue').default);
 Vue.component('login-bar', require('./components/LoginBar.vue').default);
 Vue.component('main-header', require('./components/MainHeader.vue').default);
 Vue.component('php-features', require('./components/PHPFeatures.vue').default);
+Vue.component('hosting-packages', require('./components/HostingPackages.vue').default);
 Vue.component('php-limit', require('./components/PHPLimit.vue').default);
 Vue.component('hosting-features', require('./components/HostingFeatures.vue').default);
 Vue.component('laravel-support', require('./components/LaravelSupport.vue').default);

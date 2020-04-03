@@ -16,6 +16,7 @@ body {
 
 .navbar-brand img {
   height: 15vh;
+  margin: -10% 0;
 }
 
 .nav {
@@ -27,8 +28,18 @@ body {
   margin-bottom: 0px;
 }
 
+.nav .nav-link {
+  font-size: 17px;
+}
+
 .login-bar {
   text-align: right;
+}
+
+.login-bar img {
+  display: inline-block;
+  width: 12px;
+  margin-right: 5px;
 }
 
 .login-bar p {
@@ -240,5 +251,81 @@ h2 {
   .php-modules p {
     text-align: center;
   }
+}
+
+.hosting-packages {
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+.hosting-packages .col-md-3 {
+  padding: 0;
+}
+
+.hosting-packages p {
+  font-family: "Roboto-Regular", sans-serif;
+  white-space: pre-line;
+}
+
+.hosting-packages h5 {
+  text-decoration: line-through;
+}
+
+.hosting-packages h4 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+.hosting-packages .btn-primary {
+  font-family: "Montserrat-Bold", sans-serif;
+  width: 70%;
+  background: white;
+  color: #444444;
+  padding: 8px 22px;
+  border: 2px solid #555555;
+  border-radius: 1.5rem;
+  margin: 10px auto;
+}
+
+.hosting-packages .btn-primary:hover {
+  background: #555555;
+  color: white;
+}
+
+.hosting-packages .card-header {
+  background: white;
+}
+
+.best {
+  color: white;
+  border: 1px solid #008fee;
+}
+
+.best p {
+  color: #555555;
+}
+
+.best .card-header {
+  background-color: #008fee;
+}
+
+.best .banner {
+  background-color: #00b359;
+}
+
+.best .user {
+  background-color: #007fde;
+}
+
+.best .btn-primary {
+  color: white;
+  background-color: #0090ef;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 17px;
+  border-radius: 1.5rem;
+  border: none;
+  padding: 9px 18px;
+}
+
+.best .btn-primary:hover {
+  background-color: #0050ef;
 }
 

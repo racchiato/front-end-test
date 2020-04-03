@@ -13,7 +13,7 @@
             <login-bar></login-bar>
         	<navigation-bar></navigation-bar>
             <main-header></main-header>
-            <php-features></php-features>
+            <hosting-packages></hosting-packages>
             <php-limit></php-limit>
             <hosting-features></hosting-features>
             <laravel-support></laravel-support>
