@@ -19,7 +19,7 @@ class CreatePricesTable extends Migration
             $table->integer('price');
             $table->integer('discounted');
             $table->string('name');
-            $table->integer('integer');
+            $table->integer('best');
         });
     }
 
