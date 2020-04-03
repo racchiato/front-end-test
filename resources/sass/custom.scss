@@ -1,0 +1,253 @@
+// Variables
+@import 'variables';
+
+%list-check {
+	display: inline-block;
+	margin-right: 10px;
+	content: ' ';
+	background-image: url('svg/Check_green_icon.svg');
+	background-size: 15px 15px;
+	height: 15px;
+	width: 15px;
+}
+
+body {
+	color: #555555;
+}
+
+.navbar-brand {
+	img {
+		height: 15vh;
+	}
+}
+
+.nav {
+	border: 1px solid gray;
+
+	container {
+		margin-top: 0px;
+		margin-bottom:0px;
+	}
+}
+
+.login-bar {
+	text-align: right;
+	p {
+		display: inline-block;
+	}
+}
+
+h5 {
+	font-family: $heading-2;
+}
+
+h1 {
+	font-family: $heading;
+}
+
+h2 {
+	font-family: $heading-2;
+}
+
+.main-header {
+	margin-top: 5vh;
+	ul {
+		padding-left:0;
+		list-style-type:none;
+	}
+
+	li {
+		font-family: $heading-2;
+		padding-left: 20px;
+		margin-bottom: 5px;
+		font-size: 16px;
+	}
+	li:before {
+		@extend %list-check;
+	}
+}
+
+.limit-section {
+	tr:nth-child(even) {
+		background: #F0F0F0;
+	}
+}
+
+.line {
+	width: 6vw;
+	height: 2vh;
+	border-bottom: 5px solid #E0E0E0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.host-features {
+	img {
+		width: 30%;
+	}
+
+	p {
+		font-size: 13px;
+	}
+
+	h4 {
+		font-family: 'Montserrat-Bold', sans-serif;
+	}
+}
+
+.laravel-support {
+	border-bottom: 1px solid gray;
+	h5 {
+		font-family: $heading-2;
+		line-height: 2em;
+	}
+
+	ul {
+		padding-left: 0;
+		list-style-type: none;
+	}
+
+	li {
+		font-size: 16px;
+		line-height: 2em;
+	}
+
+	li:before {
+		@extend %list-check;
+	}
+
+	.btn-primary {
+		margin-top: 3vh;
+		background-color: #0090ef;
+		font-family: 'Montserrat-Bold', sans-serif;
+		font-size: 17px;
+		border-radius: 1.5rem;
+		border: none;
+		padding: 9px 18px;
+	}
+
+	.btn-primary:hover {
+		background-color: #0050ef;
+	}
+}
+
+.php-modules {
+	p {
+		white-space: pre-line
+	}
+
+	.btn-primary {
+		font-family: 'Montserrat-Bold', sans-serif;
+		background: white;
+		color: #444444;
+		padding: 8px 22px;
+		border: 2px solid #555555;
+		font-size: 18px;
+		border-radius: 1.5rem;
+	}
+
+	.btn-primary:hover {
+		background: #555555;
+		color: white;
+	}
+
+}
+
+.linux-hosting {
+	@extend .laravel-support;
+	margin-top: 12vh !important;
+	border-bottom: none;
+}
+
+.share {
+	width: 100%;
+	background: #f7f7f7;
+	padding-top: 20px;
+	font-family: 'Montserrat-Regular', sans-serif;
+}
+
+.share-bar {
+	text-align: right;
+	p {
+		margin-left: 5px;
+		color: #999999;
+		border: 1px solid #999999;
+		border-radius: 10%;
+		padding: 5px 10px;
+		display: inline-block;
+		text-decoration: none;
+	}
+}
+
+.help-support {
+	background: #00a2f3;
+	color: white;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+
+	.col-md-8 {
+		border-right: 1px solid white;
+	}
+
+	.container {
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+
+	.btn-primary {
+		background: none;
+		border-radius: 1.2rem;
+		border: 2px solid white;
+		font-size: 20px;
+		width: 60%;
+		padding: 7px 10px !important;
+
+		img {
+			margin-right: 10px;
+			width: 15%;
+			fill: white !important;
+		}
+	}
+}
+
+.footer {
+	background: #303030;
+	padding-bottom: 5vh;
+	padding-top: 5vh;
+
+	h6 {
+		color: #666666;
+	}
+
+	p {
+		white-space: pre-line;
+		color: #8e8e8e
+	}
+
+	form {
+		width: 100%;
+		input {
+			width: 70%;
+			border-radius: 2px;
+			margin-bottom: 5px;
+		}
+	}
+	.btn-primary {
+		width: 70%;
+		border-radius: 2px;
+	}
+
+	.sub-footer {
+		p {
+			font-size: 0.85em;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+		.php-modules {
+			p {
+				text-align: center;
+			}
+		}
+}
