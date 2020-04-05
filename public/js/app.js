@@ -2046,7 +2046,7 @@ __webpack_require__.r(__webpack_exports__);
       });
     }
   },
-  mounted: function mounted() {
+  beforeMount: function beforeMount() {
     this.loadPrices();
   }
 });
@@ -38567,7 +38567,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row justify-content-around limit-section" }, [
-        _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "col-md-5" }, [
           _c("table", { staticClass: "table table-borderless text-center" }, [
             _c("tbody", [
               _c("tr", [
@@ -38606,7 +38606,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "col-md-5" }, [
           _c("table", { staticClass: "table table-borderless text-center" }, [
             _c("tbody", [
               _c("tr", [

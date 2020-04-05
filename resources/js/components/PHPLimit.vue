@@ -2,7 +2,7 @@
 	<div class="container text-center">
 		<h2 class="my-5">Powerful dengan Limit PHP yang Lebih Besar</h2>
 		<div class="row justify-content-around limit-section">
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<table class="table table-borderless text-center">
 					<tbody>
 						<tr>
@@ -20,7 +20,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<table class="table table-borderless text-center">
 					<tbody>
 						<tr>

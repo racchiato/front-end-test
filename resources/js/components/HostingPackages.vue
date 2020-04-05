@@ -136,7 +136,7 @@ export default {
          }));
        }
     },
-    mounted() {
+    beforeMount() {
         this.loadPrices();
     }
 }

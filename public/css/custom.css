@@ -78,6 +78,10 @@ h2 {
   background: #F0F0F0;
 }
 
+.limit-section table {
+  border: 1px solid #EAEAEA !important;
+}
+
 .line {
   width: 6vw;
   height: 2vh;
